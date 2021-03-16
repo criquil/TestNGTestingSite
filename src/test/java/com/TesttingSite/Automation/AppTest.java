@@ -54,7 +54,7 @@ class AppTest {
         loginPage.LoginWithUserPass(driver ,"cristianadrian22@hotmail.com", "Jesica01");
         homePage.ValidateHomeAssets();
         JavascriptExecutor jse = (JavascriptExecutor)driver;
-        Path path = Paths.get("C:/Users/cristian.rosa/Documents/Repo/TestSiteTestNG/TestNGTestingSite/src/test/resourses/axe.min.js");
+        Path path = Paths.get("./src/test/resourses/axe.min.js");
 
         String content = new String(Files.readAllBytes(path));
         jse.executeScript(content);
