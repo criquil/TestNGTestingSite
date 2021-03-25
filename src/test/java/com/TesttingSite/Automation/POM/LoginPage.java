@@ -31,7 +31,7 @@ public class LoginPage extends Base {
         
     }
 
-    public void LoginWithUserPass(WebDriver driver, String user, String pass){
+    public void LoginWithUserPass(WebDriver driver, String user, String pass, String url){
         WebDriverWait wait = new WebDriverWait(driver,30);
         findElement(userLocator).clear();
         findElement(userLocator).sendKeys(user);
@@ -41,7 +41,7 @@ public class LoginPage extends Base {
         findElement(passLocator).sendKeys(pass);
         wait.until(ExpectedConditions.presenceOfElementLocated(submitLocator));
         findElement(submitLocator).submit();
-        wait.until(ExpectedConditions.urlToBe("https://testappautomation.herokuapp.com/forms/"));
+        wait.until(ExpectedConditions.urlToBe(url + "forms/"));
     }
 
     public void loginWithGoogle(WebDriver driver){

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Production" duration-ms="53805" started-at="2021-03-25T01:32:46 ART" finished-at="2021-03-25T01:33:40 ART">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="26744" started-at="2021-03-25T01:32:46 ART" finished-at="2021-03-25T01:33:12 ART">
+      <class name="com.TesttingSite.Automation.AppTest">
+        <test-method status="PASS" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.TesttingSite.Automation.AppTest@1877ab81]" name="setUp" is-config="true" duration-ms="5281" started-at="2021-03-25T01:32:46 ART" finished-at="2021-03-25T01:32:51 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://testappautomation.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1(java.lang.String)[pri:0, instance:com.TesttingSite.Automation.AppTest@1877ab81]" name="test1" duration-ms="8695" started-at="2021-03-25T01:32:51 ART" finished-at="2021-03-25T01:33:00 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://testappautomation.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TesttingSite.Automation.AppTest@1877ab81]" name="tearDown" is-config="true" duration-ms="102" started-at="2021-03-25T01:33:00 ART" finished-at="2021-03-25T01:33:00 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.TesttingSite.Automation.AppTest@1877ab81]" name="setUp" is-config="true" duration-ms="4313" started-at="2021-03-25T01:33:00 ART" finished-at="2021-03-25T01:33:04 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://testappautomation.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test2(java.lang.String)[pri:0, instance:com.TesttingSite.Automation.AppTest@1877ab81]" name="test2" duration-ms="8164" started-at="2021-03-25T01:33:04 ART" finished-at="2021-03-25T01:33:12 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://testappautomation.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TesttingSite.Automation.AppTest@1877ab81]" name="tearDown" is-config="true" duration-ms="143" started-at="2021-03-25T01:33:12 ART" finished-at="2021-03-25T01:33:12 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TesttingSite.Automation.AppTest -->
+    </test> <!-- ChromeTest -->
+    <test name="MicrosoftEdgeTest" duration-ms="27037" started-at="2021-03-25T01:33:12 ART" finished-at="2021-03-25T01:33:40 ART">
+      <class name="com.TesttingSite.Automation.AppTest">
+        <test-method status="PASS" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.TesttingSite.Automation.AppTest@1a3869f4]" name="setUp" is-config="true" duration-ms="4729" started-at="2021-03-25T01:33:12 ART" finished-at="2021-03-25T01:33:17 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MicrosoftEdge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://testappautomation.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1(java.lang.String)[pri:0, instance:com.TesttingSite.Automation.AppTest@1a3869f4]" name="test1" duration-ms="8153" started-at="2021-03-25T01:33:17 ART" finished-at="2021-03-25T01:33:25 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://testappautomation.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TesttingSite.Automation.AppTest@1a3869f4]" name="tearDown" is-config="true" duration-ms="147" started-at="2021-03-25T01:33:25 ART" finished-at="2021-03-25T01:33:26 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.TesttingSite.Automation.AppTest@1a3869f4]" name="setUp" is-config="true" duration-ms="5075" started-at="2021-03-25T01:33:26 ART" finished-at="2021-03-25T01:33:31 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MicrosoftEdge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://testappautomation.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test2(java.lang.String)[pri:0, instance:com.TesttingSite.Automation.AppTest@1a3869f4]" name="test2" duration-ms="8756" started-at="2021-03-25T01:33:31 ART" finished-at="2021-03-25T01:33:39 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://testappautomation.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TesttingSite.Automation.AppTest@1a3869f4]" name="tearDown" is-config="true" duration-ms="171" started-at="2021-03-25T01:33:39 ART" finished-at="2021-03-25T01:33:40 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TesttingSite.Automation.AppTest -->
+    </test> <!-- MicrosoftEdgeTest -->
+  </suite> <!-- Production -->
+</testng-results>
